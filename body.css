@@ -1,0 +1,201 @@
+/* ================= FUNDO ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    background: linear-gradient(to bottom,
+            #ffffff 0%,
+            #ffffff 50%,
+            #e9f7f4 80%,
+            #cfeee8 90%,
+            #b8e3db 100%);
+}
+
+/* ================= TOPO ================= */
+
+.topo {
+    position: relative;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* GIF canto esquerdo */
+.gif img {
+    position: absolute;
+    left: 15px;
+    top: -40px;
+    /* agora fica no topo */
+    width: 120px;
+    /* ajuste o tamanho como quiser */
+    height: auto;
+    /* mantém proporção */
+    transform: none;
+    /* remove o centralizador */
+}
+
+/* LOGO */
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* ================= INPUT ================= */
+
+.input-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #4fbfa8;
+    color: white;
+    font-weight: bold;
+}
+
+/* ================= TABELA ================= */
+
+.tabela {
+    margin-bottom: 30px;
+}
+
+#lista {
+    margin-top: 10px;
+}
+
+/* GRID estilo Excel */
+.item {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 0;
+    /* remove espaços entre células */
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #dfeeee;
+    font-weight: bold;
+}
+
+/* Células */
+.celula {
+    border: 1px solid #bbb;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    font-size: 14px;
+}
+
+/* Cabeçalho mais forte */
+.header .celula {
+    background-color: #d9eaea;
+    font-weight: bold;
+}
+
+/* Linhas */
+.linha {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+/* Hover estilo Excel */
+.linha:hover {
+    background-color: #e6f7f4;
+}
+
+/* Zebra */
+.linha:nth-child(even) .celula {
+    background-color: #f7fcfb;
+}
+
+/* ================= RESUMO (lista + resultado lado a lado) ================= */
+
+.resumo-container {
+    display: flex;
+    justify-content: center;
+    /* centraliza na tela */
+    align-items: flex-start;
+    gap: 80px;
+    /* espaço entre lista e resultado */
+    margin-top: 40px;
+    font-size: 14px;
+
+}
+
+/* lado esquerdo */
+#lista-container {
+    width: 300px;
+}
+
+/* lado direito */
+#resultado-container {
+    width: 300px;
+}
+
+#lista button {
+    font-size: 9px;
+    padding: 1px 4px;
+    margin-left: 6px;
+    background-color: #4fbfa8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#lista div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* espaço entre texto e botão */
+    margin-bottom: 12px;
+    /* espaço entre linhas */
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* rodapé */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.rodape {
+    position: fixed;
+    /* fixa na tela */
+    bottom: 0;
+    /* cola no fundo */
+    left: 0;
+    width: 100%;
+    /* ocupa toda largura */
+
+    text-align: center;
+    /* centraliza texto */
+    font-size: 12px;
+    /* tamanho menor */
+    padding: 8px;
+
+    /* background-color: #f1f1f1;*/
+    /* opcional */
+    color: #777;
+}
