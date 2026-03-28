@@ -3,134 +3,134 @@ const vasos = [
     {
         nome: "vaso 6",
         codConceito: "56",
-        altura: 10,
-        comprimento: 20,
-        largura: 30,
-        volume: 22,
-        terra: 2.0,
-        argila: 0.5,
-        manta: 0.2
+        altura: 10.000,
+        comprimento: 20.000,
+        largura: 30.000,
+        volume: 22.000,
+        terra: 2.000,
+        argila: 0.500,
+        manta: 0.200
     },
     {
         nome: "Jardineira Baixa P (30x65x26)",
         codConceito: "VI5118",
-        altura: 0.30,
-        comprimento: 0.65,
-        largura: 0.26,
-        volume: 0.0507,
+        altura: 0.300,
+        comprimento: 0.650,
+        largura: 0.260,
+        volume: 0.051,
         terra: 0.035,
-        argila: 0.0076,
-        manta: 0.34
+        argila: 0.008,
+        manta: 0.340
     },
     {
         nome: "Jardineira Baixa M (30x80x26)",
         codConceito: "VI5117",
-        altura: 0.30,
-        comprimento: 0.80,
-        largura: 0.26,
-        volume: 0.0624,
-        terra: 0.044,
-        argila: 0.0094,
-        manta: 0.42
+        altura: 0.300,
+        comprimento: 0.800,
+        largura: 0.260,
+        volume: 0.063,
+        terra: 0.045,
+        argila: 0.010,
+        manta: 0.420
     },
     {
         nome: "Vaso Japão P (36x44x27)",
         codConceito: "VI5074",
-        altura: 0.36,
-        comprimento: 0.44,
-        largura: 0.27,
-        volume: 0.0428,
+        altura: 0.360,
+        comprimento: 0.440,
+        largura: 0.270,
+        volume: 0.043,
         terra: 0.030,
-        argila: 0.0064,
-        manta: 0.24
+        argila: 0.007,
+        manta: 0.240
     },
     {
         nome: "Vaso Japão M (45x49x36)",
         codConceito: "VI5075",
-        altura: 0.45,
-        comprimento: 0.49,
-        largura: 0.36,
-        volume: 0.0794,
+        altura: 0.450,
+        comprimento: 0.490,
+        largura: 0.360,
+        volume: 0.080,
         terra: 0.056,
-        argila: 0.0119,
-        manta: 0.35
+        argila: 0.012,
+        manta: 0.350
     },
     {
         nome: "Vaso Japão G (54x59x37)",
         codConceito: "VI5076",
-        altura: 0.54,
-        comprimento: 0.59,
-        largura: 0.37,
-        volume: 0.1179,
+        altura: 0.540,
+        comprimento: 0.590,
+        largura: 0.370,
+        volume: 0.118,
         terra: 0.083,
-        argila: 0.0177,
-        manta: 0.44
+        argila: 0.018,
+        manta: 0.440
     },
     {
         nome: "Vaso Porto G (78x63x60)",
         codConceito: "VI5322",
-        altura: 0.78,
-        comprimento: 0.63,
-        largura: 0.60,
-        volume: 0.2948,
+        altura: 0.780,
+        comprimento: 0.630,
+        largura: 0.600,
+        volume: 0.295,
         terra: 0.206,
-        argila: 0.0442,
-        manta: 0.76
+        argila: 0.044,
+        manta: 0.760
     },
     {
         nome: "Vaso Vértice P (91x20x25)",
         codConceito: "VI5309",
-        altura: 0.91,
-        comprimento: 0.20,
-        largura: 0.25,
-        volume: 0.0455,
+        altura: 0.910,
+        comprimento: 0.200,
+        largura: 0.250,
+        volume: 0.046,
         terra: 0.032,
-        argila: 0.0068,
-        manta: 0.10
+        argila: 0.007,
+        manta: 0.100
     },
     {
         nome: "Vaso Cilindro G (90x36x36)",
         codConceito: "VI5060",
-        altura: 0.90,
-        comprimento: 0.36,
-        largura: 0.36,
-        volume: 0.1166,
+        altura: 0.900,
+        comprimento: 0.360,
+        largura: 0.360,
+        volume: 0.117,
         terra: 0.082,
-        argila: 0.0175,
-        manta: 0.26
+        argila: 0.018,
+        manta: 0.260
     },
     {
         nome: "Vaso Cilindro M (70x36x36)",
         codConceito: "VI5059",
-        altura: 0.70,
-        comprimento: 0.36,
-        largura: 0.36,
-        volume: 0.0907,
+        altura: 0.700,
+        comprimento: 0.360,
+        largura: 0.360,
+        volume: 0.091,
         terra: 0.064,
-        argila: 0.0136,
-        manta: 0.26
+        argila: 0.014,
+        manta: 0.260
     },
     {
         nome: "Caixa França G (60x60x80)",
         codConceito: "VI5045",
-        altura: 0.80,
-        comprimento: 0.60,
-        largura: 0.60,
-        volume: 0.2880,
+        altura: 0.800,
+        comprimento: 0.600,
+        largura: 0.600,
+        volume: 0.290,
         terra: 0.202,
-        argila: 0.0432,
-        manta: 0.72
+        argila: 0.043,
+        manta: 0.720
     },
     {
         nome: "Bacia M (21x58x26)",
         codConceito: "VI5291",
-        altura: 0.21,
-        comprimento: 0.58,
-        largura: 0.26,
-        volume: 0.0317,
+        altura: 0.210,
+        comprimento: 0.580,
+        largura: 0.260,
+        volume: 0.032,
         terra: 0.022,
-        argila: 0.0048,
-        manta: 0.30
+        argila: 0.005,
+        manta: 0.300
     }
 ];
 
@@ -170,7 +170,7 @@ function calcularTotais() {
         const larg = item.vaso.largura > 10 ? item.vaso.largura / 100 : item.vaso.largura;
 
         const areaBase = comp * larg;
-        manta += areaBase * item.quantidade;
+        manta += areaBase * 2 * item.quantidade;
     });
 
     return { terra, argila, manta };
@@ -194,6 +194,7 @@ function atualizarTela() {
         const larg = item.vaso.largura > 10 ? item.vaso.largura / 100 : item.vaso.largura;
 
         const areaBase = comp * larg * item.quantidade;
+        const mantaItem = areaBase * 2 * item.quantidade;
 
         linhaTabela.innerHTML = `
                 <div class="celula">${item.vaso.nome}</div>
@@ -202,9 +203,10 @@ function atualizarTela() {
                 <div class="celula">${item.vaso.comprimento || "-"}</div>
                 <div class="celula">${item.vaso.largura || "-"}</div>
                 <div class="celula">${item.vaso.volume || "-"}</div>
-                <div class="celula">${item.vaso.terra * item.quantidade}</div>
-                <div class="celula">${item.vaso.argila * item.quantidade}</div>
-                <div class="celula">${areaBase}</div>
+                <div class="celula">${(item.vaso.terra * item.quantidade).toFixed(2)}</div>
+<div class="celula">${(item.vaso.argila * item.quantidade).toFixed(2)}</div>
+                <div class="celula">${mantaItem.toFixed(2)}</div>
+
             `;
 
         linhas.appendChild(linhaTabela);
@@ -227,8 +229,8 @@ function atualizarTela() {
     const sacosArgila = (totais.argila * 1000) / 50;
 
     document.getElementById("resultado").innerHTML = `
-            <div>Terra: ${totais.terra} m³ / ${Math.ceil(sacosTerra)} sacos (20L)</div>
-            <div>Argila: ${totais.argila} m³ / ${Math.ceil(sacosArgila)} sacos (50L)</div>
+            <div>Terra: ${totais.terra.toFixed(2)} m³ / ${Math.ceil(sacosTerra)} sacos (20L)</div>
+            <div>Argila: ${totais.argila.toFixed(2)} m³ / ${Math.ceil(sacosArgila)} sacos (50L)</div>
             <div>Manta: ${totais.manta.toFixed(2)} m² / ${totais.manta.toFixed(2)} ml</div>
         `;
 }
@@ -244,8 +246,8 @@ function copiar() {
     const totais = calcularTotais();
 
     texto += `\nTOTAL:\n`;
-    texto += `Terra: ${totais.terra} m³\n`;
-    texto += `Argila: ${totais.argila} L\n`;
+    texto += `Terra: ${totais.terra.toFixed(2)} m³\n`;
+    texto += `Argila: ${totais.argila.toFixed(2)} L\n`;
     texto += `Manta: ${totais.manta} m²`;
 
     navigator.clipboard.writeText(texto)
