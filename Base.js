@@ -161,10 +161,12 @@ function calcularTotais() {
     let terra = 0;
     let argila = 0;
     let manta = 0;
+    let vasosTotal = 0;
 
     orcamento.forEach((item) => {
         terra += item.vaso.terra * item.quantidade;
         argila += item.vaso.argila * item.quantidade;
+        vasosTotal += item.quantidade;
 
         const comp = item.vaso.comprimento > 10 ? item.vaso.comprimento / 100 : item.vaso.comprimento;
         const larg = item.vaso.largura > 10 ? item.vaso.largura / 100 : item.vaso.largura;
@@ -173,7 +175,7 @@ function calcularTotais() {
         manta += areaBase * 2 * item.quantidade;
     });
 
-    return { terra, argila, manta };
+    return { terra, argila, manta, vasosTotal };
 }
 
 //5- Atualizar tela
@@ -229,10 +231,11 @@ function atualizarTela() {
     const sacosArgila = (totais.argila * 1000) / 50;
 
     document.getElementById("resultado").innerHTML = `
-            <div>Terra: ${totais.terra.toFixed(2)} m³ / ${Math.ceil(sacosTerra)} sacos (20L)</div>
-            <div>Argila: ${totais.argila.toFixed(2)} m³ / ${Math.ceil(sacosArgila)} sacos (50L)</div>
-            <div>Manta: ${totais.manta.toFixed(2)} m² / ${totais.manta.toFixed(2)} ml</div>
-        `;
+    <div>Vasos: ${totais.vasosTotal}</div>
+    <div>Terra: ${totais.terra.toFixed(2)} m³ / ${Math.ceil(sacosTerra)} sacos (20L)</div>
+    <div>Argila: ${totais.argila.toFixed(2)} m³ / ${Math.ceil(sacosArgila)} sacos (50L)</div>
+    <div>Manta: ${totais.manta.toFixed(2)} m² / ${totais.manta.toFixed(2)} ml</div>
+`;
 }
 
 //6- Copiar orçamento
